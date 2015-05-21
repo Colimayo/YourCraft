@@ -1,0 +1,153 @@
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 15-5-22 上午1:52
+Description: Unexpected error
+
+java.lang.IllegalArgumentException: Cannot create a fluidstack from a null fluid
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:29)
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:59)
+	at mods.railcraft.common.fluids.TankManager.processGuiUpdate(TankManager.java:192)
+	at mods.railcraft.common.gui.containers.ContainerEngineSteamHobby.func_75137_b(ContainerEngineSteamHobby.java:110)
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147245_a(NetHandlerPlayClient.java:1151)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:26)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:9)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78765_e(PlayerControllerMP.java:273)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1590)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:961)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:887)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jackhuang.hellominecraft.launcher.Launcher.main(SourceFile:127)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:29)
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:59)
+	at mods.railcraft.common.fluids.TankManager.processGuiUpdate(TankManager.java:192)
+	at mods.railcraft.common.gui.containers.ContainerEngineSteamHobby.func_75137_b(ContainerEngineSteamHobby.java:110)
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147245_a(NetHandlerPlayClient.java:1151)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:26)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:9)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78765_e(PlayerControllerMP.java:273)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 4 total; [EntityClientPlayerMP['jhxs'/45641, l='MpServer', x=2404.51, y=70.62, z=-5342.26], EntityOtherPlayerMP['muli'/6831, l='MpServer', x=2374.50, y=74.94, z=-5312.97], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2395.97, y=77.38, z=-5336.03], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2394.00, y=79.97, z=-5334.78]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (2350,77,-5321), Chunk: (at 14,4,7 in 146,-333; contains blocks 2336,0,-5328 to 2351,255,-5313), Region: (4,-11; contains chunks 128,-352 to 159,-321, blocks 2048,0,-5632 to 2559,255,-5121)
+	Level time: 1452697 game time, 1470805 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 106 total; [EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2393.34, y=94.03, z=-5317.78], EntityBat['蝙蝠'/57367, l='MpServer', x=2396.50, y=72.90, z=-5301.75], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2349.97, y=80.00, z=-5305.00], EntityGaiaWitherCow['Wither Cow'/48212, l='MpServer', x=2362.75, y=71.00, z=-5341.31], EntityGaiaCreep['Creep'/58458, l='MpServer', x=2362.84, y=38.00, z=-5345.41], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2382.13, y=78.00, z=-5328.03], EntityClientPlayerMP['jhxs'/45641, l='MpServer', x=2404.51, y=70.62, z=-5342.26], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2366.44, y=82.09, z=-5316.75], EntityOtherPlayerMP['DAY'/28277, l='MpServer', x=2357.56, y=75.50, z=-5320.16], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2342.25, y=78.00, z=-5312.00], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2336.13, y=77.91, z=-5312.66], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2361.47, y=77.81, z=-5299.53], EntityWaypointContainer['未知'/38022, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCaveSpider['洞穴蜘蛛'/216206, l='MpServer', x=-28.36, y=-37.77, z=-41.07], EntityCaveSpider['洞穴蜘蛛'/38033, l='MpServer', x=-9.26, y=-42.62, z=-47.12], EntityBat['蝙蝠'/55450, l='MpServer', x=2359.16, y=77.27, z=-5318.50], EntityZombie['僵尸'/58525, l='MpServer', x=2382.50, y=36.00, z=-5368.50], EntityCreeper['爬行者'/58526, l='MpServer', x=2390.50, y=12.00, z=-5302.50], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2309.28, y=92.72, z=-5368.34], EntityItem['item.item.arrow'/51377, l='MpServer', x=2407.72, y=66.13, z=-5328.81], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2367.50, y=85.63, z=-5304.97], EntitySkeleton['骷髅'/58600, l='MpServer', x=2380.50, y=40.00, z=-5371.50], EntityOtherPlayerMP['DAY'/28277, l='MpServer', x=2335.94, y=75.00, z=-5282.69], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2316.47, y=92.03, z=-5321.59], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2395.69, y=50.16, z=-5334.31], EntityGaiaHarpy['Harpy'/58660, l='MpServer', x=2444.50, y=67.00, z=-5364.50], EntitySnowball['雪球'/58663, l='MpServer', x=2363.41, y=73.87, z=-5315.42], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2310.94, y=73.22, z=-5356.66], EntitySpider['蜘蛛'/38206, l='MpServer', x=-19.77, y=-44.77, z=-6.81], EntityCaveSpider['洞穴蜘蛛'/146754, l='MpServer', x=-4.46, y=-50.70, z=-22.05], EntityBat['蝙蝠'/56655, l='MpServer', x=2382.41, y=71.43, z=-5313.00], EntityZombie['僵尸'/148818, l='MpServer', x=9.40, y=-55.62, z=-27.83], EntityBat['蝙蝠'/56665, l='MpServer', x=2385.00, y=71.43, z=-5301.03], EntityBat['蝙蝠'/52582, l='MpServer', x=2360.00, y=78.09, z=-5301.00], EntityBat['蝙蝠'/56685, l='MpServer', x=2391.56, y=77.18, z=-5309.59], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2350.25, y=78.91, z=-5276.00], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2342.94, y=75.34, z=-5291.53], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2351.63, y=79.00, z=-5305.28], EntityGaiaEnderEye['Ender Eye'/57757, l='MpServer', x=2360.30, y=43.00, z=-5312.93], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2357.19, y=80.97, z=-5293.40], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2395.97, y=77.38, z=-5336.03], EntityOtherPlayerMP['DAY'/28277, l='MpServer', x=2347.41, y=77.63, z=-5297.97], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2351.97, y=79.00, z=-5302.34], EntityGaiaMimic['Mimic'/57792, l='MpServer', x=2419.34, y=24.00, z=-5317.38], EntitySkeleton['骷髅'/57793, l='MpServer', x=2419.94, y=25.00, z=-5319.53], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2389.00, y=73.28, z=-5340.38], EntityOtherPlayerMP['DAY'/28277, l='MpServer', x=2360.31, y=73.91, z=-5274.25], EntityOtherPlayerMP['DAY'/28277, l='MpServer', x=2376.03, y=89.91, z=-5272.57], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2345.25, y=81.03, z=-5312.00], EntityGaiaCockatrice['Cockatrice'/57864, l='MpServer', x=2429.16, y=66.00, z=-5348.34], EntityGaiaCockatrice['Cockatrice'/57865, l='MpServer', x=2422.84, y=66.00, z=-5351.41], EntityZombie['僵尸'/57889, l='MpServer', x=2373.16, y=35.00, z=-5337.25], EntityZombie['僵尸'/57912, l='MpServer', x=2374.47, y=40.00, z=-5386.91], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2385.63, y=80.97, z=-5319.69], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2338.88, y=90.34, z=-5302.94], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2363.48, y=75.81, z=-5297.58], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2355.66, y=79.09, z=-5292.34], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2365.28, y=86.00, z=-5306.38], EntityBat['蝙蝠'/54916, l='MpServer', x=2380.13, y=71.00, z=-5295.00], EntityOtherPlayerMP['muli'/6831, l='MpServer', x=2374.50, y=74.94, z=-5312.97], EntityItem['item.tile.sandStone.default'/58047, l='MpServer', x=2379.16, y=63.13, z=-5346.19], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2395.97, y=77.38, z=-5336.03], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2363.59, y=87.22, z=-5338.78], EntityItem['item.tile.sand.default'/58065, l='MpServer', x=2391.81, y=67.13, z=-5351.78], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2364.59, y=81.88, z=-5311.34], EntityItem['item.tile.sand.default'/58067, l='MpServer', x=2389.06, y=67.13, z=-5350.84], EntityItem['item.tile.sand.default'/58072, l='MpServer', x=2384.59, y=68.13, z=-5349.88], EntityBat['蝙蝠'/55021, l='MpServer', x=2367.75, y=72.10, z=-5303.25], EntityBat['蝙蝠'/55039, l='MpServer', x=2389.50, y=78.93, z=-5299.44], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2364.72, y=86.59, z=-5321.59], EntityOtherPlayerMP['muli'/6831, l='MpServer', x=2362.13, y=82.00, z=-5337.69], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2394.00, y=79.97, z=-5334.78], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2365.72, y=72.53, z=-5323.25], EntityOtherPlayerMP['muli'/6831, l='MpServer', x=2358.59, y=76.09, z=-5350.28], EntityOtherPlayerMP['DAY'/28277, l='MpServer', x=2373.03, y=79.28, z=-5353.38], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2376.59, y=78.91, z=-5297.44], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2413.94, y=74.59, z=-5345.03], EntityItem['item.tile.appliedenergistics2.BlockSpatialPylon'/58208, l='MpServer', x=2396.63, y=70.13, z=-5328.69], EntityItem['item.gt.metaitem.01.2817'/51050, l='MpServer', x=2365.91, y=18.13, z=-5334.25], EntityItem['item.tile.stonebrick'/51057, l='MpServer', x=2367.90, y=18.47, z=-5334.91], EntityItem['item.tile.stonebrick'/51060, l='MpServer', x=2365.81, y=16.13, z=-5334.19], EntityItem['item.tile.dirt.default'/51062, l='MpServer', x=2364.13, y=15.13, z=-5334.19], EntityCaveSpider['洞穴蜘蛛'/92033, l='MpServer', x=-27.62, y=-41.12, z=-27.88], EntityItem['item.tile.stonebrick'/51081, l='MpServer', x=2360.34, y=18.13, z=-5334.38], EntityOtherPlayerMP['xox'/41673, l='MpServer', x=2366.63, y=75.00, z=-5300.97], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2342.22, y=103.00, z=-5351.84], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2351.66, y=83.59, z=-5292.56], EntityOtherPlayerMP['xiao7'/45154, l='MpServer', x=2351.94, y=79.00, z=-5302.38], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2351.63, y=79.00, z=-5305.28], EntityMechanicalArm['未知'/145343, l='MpServer', x=2353.00, y=79.00, z=-5301.00], EntityBlock['未知'/145346, l='MpServer', x=2358.25, y=83.25, z=-5305.25], EntityBlock['未知'/145347, l='MpServer', x=2358.40, y=78.00, z=-5299.60], EntityOtherPlayerMP['muli'/6831, l='MpServer', x=2374.50, y=74.94, z=-5312.97], EntityBlock['未知'/145344, l='MpServer', x=2354.75, y=83.25, z=-5299.75], EntityBlock['未知'/145345, l='MpServer', x=2358.25, y=79.00, z=-5299.75], EntityZombie['僵尸'/58313, l='MpServer', x=2384.38, y=18.00, z=-5328.94], EntityZombie['僵尸'/58314, l='MpServer', x=2371.59, y=16.00, z=-5327.06], EntityGaiaMimic['Mimic'/58315, l='MpServer', x=2376.47, y=14.00, z=-5320.72], EntitySpider['蜘蛛'/48077, l='MpServer', x=2370.34, y=72.00, z=-5339.63], EntityBat['蝙蝠'/57313, l='MpServer', x=2375.22, y=72.43, z=-5337.34], EntityGaiaBoneKnight['Bone Knight'/58337, l='MpServer', x=2397.50, y=29.00, z=-5361.41], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2351.66, y=83.59, z=-5292.56], EntityOtherPlayerMP['Meng'/42799, l='MpServer', x=2394.00, y=79.97, z=-5334.78], EntityOtherPlayerMP['muli'/6831, l='MpServer', x=2351.69, y=73.47, z=-5353.09], EntityBat['蝙蝠'/53233, l='MpServer', x=2356.44, y=79.49, z=-5308.56], EntityOtherPlayerMP['Zylggg'/33966, l='MpServer', x=2354.50, y=82.17, z=-5312.09]]
+	Retry entities: 0 total; []
+	Server brand: cauldron,craftbukkit,mcpc,fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:373)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2432)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:916)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jackhuang.hellominecraft.launcher.Launcher.main(SourceFile:127)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_45, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 649104672 bytes (619 MB) / 1194590208 bytes (1139 MB) up to 4225236992 bytes (4029 MB)
+	JVM Flags: 5 total; -Xincgc -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmx4096m
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 15, tallocated: 95
+	FML: MCP v9.05 FML v7.10.112.1370 Minecraft Forge 10.13.3.1370 42 mods loaded, 42 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	FML{7.10.112.1370} [Forge Mod Loader] (forge-1.7.10-10.13.3.1370-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Forge{10.13.3.1370} [Minecraft Forge] (forge-1.7.10-10.13.3.1370-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	appliedenergistics2-core{rv2-stable-1} [AppliedEnergistics2 Core] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	bambootransformer{1.0.0} [BambooTransformer] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	CodeChickenCore{1.0.4.35} [CodeChicken Core] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	NotEnoughItems{1.0.4.83} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.4.83-universal.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	InputFix{1.7.x-v2} [InputFix] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	uniskinmod{1.2-dev3} [Universal Skin Mod] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	MineTweaker3{3.0.9B} [MineTweaker 3] ([上帝]MineTweaker3-1.7.10-3.0.9C.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	GTTweaker{0.7.0} [GTTweaker] ([上帝三号]GTTweaker-1.7.10-0.7.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	modtweaker2{0.8.2} [Mod Tweaker 2] ([上帝二号]ModTweaker 2-0.8.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	appliedenergistics2{rv2-stable-1} [Applied Energistics 2] ([应用能源]appliedenergistics2-rv2-stable-1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	IC2{2.2.720-experimental} [IndustrialCraft 2] ([工业2]industrialcraft-2-2.2.720-experimental.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Core{6.4.15} [BuildCraft] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Builders{6.4.15} [BC Builders] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Energy{6.4.15} [BC Energy] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Factory{6.4.15} [BC Factory] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Forestry{3.5.6.15} [Forestry for Minecraft] ([林业]forestry_1.7.10-3.5.6.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Railcraft{9.5.0.0} [Railcraft] ([铁路]Railcraft_1.7.10-9.5.0.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	chisel{2.3.7.34} [Chisel 2] ([凿子]Chisel2-2.3.7.34.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Transport{6.4.15} [BC Transport] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Silicon{6.4.15} [BC Silicon] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	IronChest{6.0.62.742} [Iron Chest] ([更多箱子]ironchest-1.7.10-6.0.62.742-universal.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	CarpentersBlocks{3.3.4 DEV R2} [Carpenter's Blocks] ([木匠]的方块.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	mod_ecru_MapleTree{1.1.28b} [MapleTree] ([枫树]MapleTree Forge v1.1.28b.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	harvestcraft{1.7.10g} [Pam's HarvestCraft] ([潘马斯]Pam 27s HarvestCraft 1.7.10h.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	gregtech{MC1710} [GregTech] ([格雷科技]gregtech_1.7.10-5.08.16.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	GrimoireOfGaia{1.0.0} [Grimoire of Gaia 3] ([盖亚魔典]GrimoireOfGaia3-1.7.10-1.0.9.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BambooMod{Minecraft1.7.10 var2.6.8.3} [BambooMod] ([竹]Bamboo-1.7.10-2.6.8.3-The_Xu.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	GraviSuite{1.7.10-2.0.3} [Graviation Suite] ([重力装甲]GraviSuite-1.7.10-2.0.3.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	IC2LaserFix{2.0} [IC2 Laser Fix] ([镭射枪修复]IC2LaserFix-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] ([高级太阳能]AdvancedSolarPanel-1.7.10-3.5.1.jar.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	MagicBees{1.7.10-2.3.1} [Magic Bees] ([魔法林业]magicbees-1.7.10-2.3.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Waila{1.5.8} [Waila] (客户端-头顶显示 Waila-1.5.9_1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	voxelmap{1.7.10} [VoxelMap No Radar] (客户端-小地图 VoxelMap-No-Radar-Mod-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	FastCraft{1.19} [FastCraft] (客户端-快速修复fastcraft-1.19.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	UnicodeFontFixer{1.0.3} [UnicodeFontFixer] (客户端-自体修复UnicodeFontFixer-1.0.3-mc1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	DamageIndicatorsMod{3.2.3} [Damage Indicators] (客户端-血量显示  [1.7.10]DamageIndicatorsMod-3.2.3.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	MouseTweaks{2.4.4} [Mouse Tweaks] (客户端-鼠标整理 MouseTweaks-2.4.4-mc1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	AE2 Version: stable rv2-stable-1 for Forge 10.13.2.1291
+	AE2 Integration: IC2:ON, RotaryCraft:OFF, RC:ON, BC:ON, RF:ON, RFItem:ON, MFR:OFF, DSU:ON, FZ:OFF, FMP:OFF, RB:OFF, CLApi:OFF, Waila:ON, InvTweaks:OFF, NEI:ON, CraftGuide:OFF, Mekanism:OFF, ImmibisMicroblocks:OFF, BetterStorage:OFF
+	Launched Version: 1.7.10-Forge10.13.3.1370-1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 780M/PCIe/SSE2 GL version 4.5.0 NVIDIA 350.12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

@@ -1,0 +1,38 @@
+[04:13:59] [launcher/INFO]: Setting user: jhxs
+[04:14:00] [Client thread/INFO]: LWJGL Version: 2.9.1
+[04:14:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:MineTweaker 3, FMLFileResourcePack:GTTweaker, FMLFileResourcePack:Mod Tweaker 2, FMLFileResourcePack:Chisel 2, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:MapleTree, FMLFileResourcePack:GregTech, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Grimoire of Gaia 3, FMLFileResourcePack:BambooMod, FMLFileResourcePack:Graviation Suite, FMLFileResourcePack:Railcraft, FMLFileResourcePack:IC2 Laser Fix, FMLFileResourcePack:Advanced Solar Panels, FMLFileResourcePack:Magic Bees, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Waila, FMLFileResourcePack:VoxelMap No Radar, FMLFileResourcePack:FastCraft, FMLFileResourcePack:UnicodeFontFixer, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Baubles
+[04:14:13] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:14:13] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:14:30] [Sound Library Loader/INFO]: Sound engine started
+[04:14:33] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[04:14:34] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[04:15:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:MineTweaker 3, FMLFileResourcePack:GTTweaker, FMLFileResourcePack:Mod Tweaker 2, FMLFileResourcePack:Chisel 2, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:MapleTree, FMLFileResourcePack:GregTech, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Grimoire of Gaia 3, FMLFileResourcePack:BambooMod, FMLFileResourcePack:Graviation Suite, FMLFileResourcePack:Railcraft, FMLFileResourcePack:IC2 Laser Fix, FMLFileResourcePack:Advanced Solar Panels, FMLFileResourcePack:Magic Bees, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Waila, FMLFileResourcePack:VoxelMap No Radar, FMLFileResourcePack:FastCraft, FMLFileResourcePack:UnicodeFontFixer, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Baubles, FMLFileResourcePack:Carpenter's Blocks Cached Resources
+[04:15:06] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:15:06] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:15:09] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[04:15:10] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
+[04:15:11] [Sound Library Loader/INFO]: Sound engine started
+[04:15:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[04:15:20] [Server thread/INFO]: Generating keypair
+[04:15:21] [Server thread/INFO]: Preparing start region for level 0
+[04:15:22] [Server thread/INFO]: Changing view distance to 8, from 10
+[04:15:22] [Server thread/INFO]: jhxs[local:E:612bb3dc] logged in with entity id 154 at (-268.8050994073959, 67.0, 160.2728425655276)
+[04:15:22] [Server thread/INFO]: jhxs 加入了游戏
+[04:15:22] [Client thread/INFO]: [CHAT] Your client's FastCraft version needs updating.
+[04:15:22] [Client thread/INFO]: [CHAT] [Click here for the latest download].
+[04:15:23] [Client thread/INFO]: [CHAT] ERROR: Advanced-Solar-Panels.zs:91: Could not resolve <dreamcraft : item . MasterCircuit>
+[04:15:23] [Client thread/INFO]: [CHAT] ERROR: Advanced-Solar-Panels.zs:118: Could not resolve <dreamcraft : item . SuperCircuit>
+[04:15:26] [Client thread/INFO]: [CHAT] Damage Indicators v.3.2.3.0 is up to date.
+[04:15:28] [Server thread/INFO]: Saving and pausing game...
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/Overworld
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/Nether
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/The End
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/The Outer Lands
+[04:16:17] [Client thread/INFO]: Stopping!
+[04:16:17] [Server thread/INFO]: Stopping server
+[04:16:17] [Server thread/INFO]: Saving players
+[04:16:17] [Server thread/INFO]: Saving worlds
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/Overworld
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/Nether
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/The End
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/The Outer Lands

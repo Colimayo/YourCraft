@@ -1,0 +1,51 @@
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command tooltips
+INFO: Adding minetweaker command entities
+INFO: Adding minetweaker command research
+INFO: Adding minetweaker command aspectList
+INFO: Adding minetweaker command chiselGroups
+INFO: Adding minetweaker command chiselVariations
+INFO: Adding minetweaker command mfr
+ERROR: Advanced-Solar-Panels.zs:91: Could not resolve <dreamcraft : item . MasterCircuit>
+ERROR: Advanced-Solar-Panels.zs:118: Could not resolve <dreamcraft : item . SuperCircuit>
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 2 recipes
+INFO: Removing 2 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Removing 4 furnace recipes
+INFO: Removing 1 recipes
+INFO: Adding macerator recipe for 太阳能化合物粉
+INFO: Adding recipe for 分子重组仪
+INFO: Adding recipe for MT核心
+INFO: Adding recipe for 铱铁板
+INFO: Adding recipe for 高级太阳能头盔
+INFO: Adding recipe for 混合太阳能头盔
+INFO: Adding recipe for 终极太阳能头盔
+INFO: Adding recipe for 光辉玻璃板
+INFO: Adding recipe for 光辉铱铁板
+INFO: Adding recipe for 量子核心
+INFO: Adding assembler recipe for <AdvancedSolarPanel:asp_crafting_items:2>
+INFO: Adding assembler recipe for <AdvancedSolarPanel:asp_crafting_items:3>
+INFO: Adding assembler recipe for <AdvancedSolarPanel:asp_crafting_items:1>
+INFO: Adding assembler recipe for <AdvancedSolarPanel:asp_crafting_items:4>
+INFO: Adding compressor recipe for 阳光化合物
+INFO: Adding compressor recipe for 阳光化合物
+INFO: Adding minetweaker command tooltips
+INFO: Adding minetweaker command entities
+INFO: Adding minetweaker command research
+INFO: Adding minetweaker command aspectList
+INFO: Adding minetweaker command chiselGroups
+INFO: Adding minetweaker command chiselVariations

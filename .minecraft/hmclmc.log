@@ -1,0 +1,790 @@
+Processing classpath
+*** Invoking minecraft main() ***
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[04:13:56] [launcher/INFO] [FML]: Forge Mod Loader version 7.10.112.1370 for Minecraft 1.7.10 loading
+[04:13:56] [launcher/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_45, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jre1.8.0_45
+[04:13:56] [launcher/WARN] [FML]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/INFO] [FML]: [AppEng] Core Init
+[04:13:56] [launcher/WARN] [FML]: The coremod ruby.bamboo.asm.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/WARN] [FML]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/WARN] [FML]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/WARN] [FML]: The coremod thaumcraft.codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/WARN] [FML]: The coremod lain.mods.inputfix.InputFix does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/WARN] [FML]: The coremod fastcraft.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:13:56] [launcher/INFO] [FastCraft-core]: FastCraft loading...
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:13:56] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:57] [launcher/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[04:13:57] [launcher/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[04:13:57] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:57] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:57] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:57] [launcher/INFO] [IC2-core]: Loaded library EJML-core-0.26.jar.
+[04:13:57] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [FastCraft-core]: ColoredLights was not detected.
+[04:13:58] [launcher/INFO] [FastCraft-core]: ShadersMod was not detected.
+[04:13:58] [launcher/INFO] [FastCraft-core]: Optifine was not detected.
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:13:58] [launcher/INFO] [UniSkinMod]: Injecting Data ...
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[04:13:58] [launcher/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[04:13:58] [launcher/INFO] [FastCraft-core]: 1 / 19 applied
+[04:13:58] [launcher/INFO] [FastCraft-core]: 2 / 19 applied
+[04:13:58] [launcher/INFO] [AE2-CORE]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Transformed
+[04:13:58] [launcher/INFO] [AE2-CORE]: func_146977_a_original(Lnet/minecraft/inventory/Slot;)V - New Method
+[04:13:58] [launcher/INFO] [AE2-CORE]: func_146977_a(Lnet/minecraft/inventory/Slot;)V - Invoke Virtual
+[04:13:59] [launcher/INFO]: Setting user: jhxs
+[04:14:00] [launcher/INFO] [FastCraft-core]: 3 / 19 applied
+[04:14:00] [launcher/INFO] [FastCraft-core]: 4 / 19 applied
+[04:14:00] [Client thread/INFO]: LWJGL Version: 2.9.1
+[04:14:02] [Client thread/INFO] [FastCraft-core]: 5 / 19 applied
+[04:14:02] [Client thread/INFO] [FastCraft-core]: 6 / 19 applied
+[04:14:02] [Client thread/INFO] [FastCraft-core]: 7 / 19 applied
+[04:14:02] [Client thread/INFO] [FastCraft-core]: 8 / 19 applied
+[04:14:02] [Client thread/INFO] [FastCraft-core]: 9 / 19 applied
+[04:14:02] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[04:14:02] [Client thread/INFO] [FML]: MinecraftForge v10.13.3.1370 Initialized
+[04:14:02] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[04:14:02] [Client thread/INFO] [FML]: Preloading CrashReport classes
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.World$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.World$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.World$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.World$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.chunk.Chunk$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.crash.CrashReportCategory$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.crash.CrashReportCategory$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.crash.CrashReportCategory$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.entity.Entity$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.entity.Entity$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.entity.EntityTracker$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.gen.layer.GenLayer$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.gen.layer.GenLayer$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.entity.player.InventoryPlayer$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.gen.structure.MapGenStructure$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.gen.structure.MapGenStructure$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.gen.structure.MapGenStructure$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.server.MinecraftServer$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.server.MinecraftServer$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.server.MinecraftServer$5
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.nbt.NBTTagCompound$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.nbt.NBTTagCompound$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.network.NetHandlerPlayServer$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.network.NetworkSystem$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.tileentity.TileEntity$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.tileentity.TileEntity$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.tileentity.TileEntity$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$5
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$6
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$7
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$8
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.world.storage.WorldInfo$9
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$5
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$6
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$7
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$8
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$9
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$10
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$11
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$12
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$13
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$14
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.Minecraft$15
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.multiplayer.WorldClient$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.multiplayer.WorldClient$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.multiplayer.WorldClient$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.multiplayer.WorldClient$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.particle,EffectRenderer$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.particle,EffectRenderer$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.particle,EffectRenderer$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.particle,EffectRenderer$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.EntityRenderer$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.EntityRenderer$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.EntityRenderer$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.server.integrated.IntegratedServer$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.server.integrated.IntegratedServer$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.RenderGlobal$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.entity.RenderItem$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.entity.RenderItem$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.entity.RenderItem$3
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.entity.RenderItem$4
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.texture.TextureAtlasSprite$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.texture.TextureManager$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.texture.TextureMap$1
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.texture.TextureMap$2
+[04:14:02] [Client thread/INFO] [FML]: 	net.minecraft.client.renderer.texture.TextureMap$3
+[04:14:02] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[04:14:02] [Client thread/INFO] [FML]: [AppEng] Core Init
+[04:14:02] [Client thread/INFO] [FML]: Searching E:\A\世界\格雷时代2\.minecraft\mods for mods
+[04:14:02] [Client thread/INFO] [FML]: Also searching E:\A\世界\格雷时代2\.minecraft\mods\1.7.10 for mods
+[04:14:06] [Client thread/INFO] [FML]: Attempting to reparse the mod container [枫树]MapleTree Forge v1.1.28b.jar
+[04:14:07] [Client thread/WARN] [MagicBees]: Mod MagicBees is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.7.10-2.3.1
+[04:14:07] [Client thread/WARN] [DamageIndicatorsMod]: Mod DamageIndicatorsMod is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3
+[04:14:07] [Client thread/INFO] [FML]: Forge Mod Loader has identified 42 mods to load
+[04:14:07] [Client thread/INFO] [FML]: Found mod(s) [GraviSuite] containing declared API package buildcraft.api.tools (owned by BuildCraftAPI|core) without associated API reference
+[04:14:07] [Client thread/INFO] [FML]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.99-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[04:14:08] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, bambootransformer, CodeChickenCore, NotEnoughItems, InputFix, uniskinmod, MineTweaker3, GTTweaker, modtweaker2, chisel, IC2, appliedenergistics2, BuildCraft|Builders, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Transport, IronChest, CarpentersBlocks, Forestry, mod_ecru_MapleTree, gregtech, harvestcraft, GrimoireOfGaia, BambooMod, GraviSuite, Railcraft, IC2LaserFix, AdvancedSolarPanel, MagicBees, Thaumcraft, Waila, voxelmap, FastCraft, UnicodeFontFixer, DamageIndicatorsMod, MouseTweaks, Baubles] at CLIENT
+[04:14:08] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, appliedenergistics2-core, bambootransformer, CodeChickenCore, NotEnoughItems, InputFix, uniskinmod, MineTweaker3, GTTweaker, modtweaker2, chisel, IC2, appliedenergistics2, BuildCraft|Builders, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Transport, IronChest, CarpentersBlocks, Forestry, mod_ecru_MapleTree, gregtech, harvestcraft, GrimoireOfGaia, BambooMod, GraviSuite, Railcraft, IC2LaserFix, AdvancedSolarPanel, MagicBees, Thaumcraft, Waila, voxelmap, FastCraft, UnicodeFontFixer, DamageIndicatorsMod, MouseTweaks, Baubles] at SERVER
+[04:14:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:MineTweaker 3, FMLFileResourcePack:GTTweaker, FMLFileResourcePack:Mod Tweaker 2, FMLFileResourcePack:Chisel 2, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:MapleTree, FMLFileResourcePack:GregTech, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Grimoire of Gaia 3, FMLFileResourcePack:BambooMod, FMLFileResourcePack:Graviation Suite, FMLFileResourcePack:Railcraft, FMLFileResourcePack:IC2 Laser Fix, FMLFileResourcePack:Advanced Solar Panels, FMLFileResourcePack:Magic Bees, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Waila, FMLFileResourcePack:VoxelMap No Radar, FMLFileResourcePack:FastCraft, FMLFileResourcePack:UnicodeFontFixer, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Baubles
+[04:14:13] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:14:13] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:14:13] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[04:14:13] [Client thread/INFO] [FML]: Found 431 ObjectHolder annotations
+[04:14:13] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[04:14:13] [Client thread/INFO] [modtweaker2]: Starting PreInitialization for modtweaker2
+[04:14:14] [Client thread/INFO] [AE2:C]: Pre Initialization ( started )
+[04:14:14] [Client thread/INFO] [AE2-CORE]: func_145841_b(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[04:14:14] [Client thread/INFO] [AE2-CORE]: func_145839_a(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface ic2.api.energy.tile.IEnergySink from appeng/tile/powersink/IC2 because IC2 integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Removing Interface Reika.RotaryCraft.API.Power.ShaftPowerReceiver from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Removing Method Tick_RotaryCraft from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Updated appeng/tile/powersink/RotaryCraft
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface cofh.api.energy.IEnergyReceiver from appeng/tile/powersink/RedstoneFlux because RF integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Removing Interface mekanism.api.energy.IStrictEnergyAcceptor from appeng/tile/powersink/MekJoules because Mekanism integration is disabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Updated appeng/tile/powersink/MekJoules
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Removing Interface powercrystals.minefactoryreloaded.api.rednet.connectivity.IRedNetConnection from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Removing Method getConnectionType from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Updated appeng/block/networking/BlockCableBus
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/quartz/ToolQuartzWrench because BC integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface ic2.api.item.ISpecialElectricItem from appeng/items/tools/powered/powersink/IC2 because IC2 integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface ic2.api.item.IElectricItemManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Method getManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface cofh.api.energy.IEnergyContainerItem from appeng/items/tools/powered/powersink/RedstoneFlux because RFItem integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/ToolNetworkTool because BC integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/misc/PartStorageBus because BC integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Method overridePipeConnection from appeng/parts/misc/PartStorageBus because BC integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Method overridePipeConnection from appeng/parts/p2p/PartP2PItems because BC integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface ic2.api.energy.tile.IEnergySink from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface ic2.api.energy.tile.IEnergySource from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2-CORE]: Allowing Interface cofh.api.energy.IEnergyReceiver from appeng/parts/p2p/PartP2PRFPower because RF integration is enabled.
+[04:14:14] [Client thread/INFO] [AE2:C]: Starting AE2 VersionChecker
+[04:14:14] [Client thread/INFO] [AE2:C]: Pre Initialization ( ended after 926ms )
+Exception in thread "AE2 VersionChecker" [04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: java.lang.IllegalArgumentException: Raw channel stable did not contain any of the pre-programmed types.
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at appeng.services.version.VersionParser.parseChannel(VersionParser.java:113)
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at appeng.services.version.VersionParser.parseVersion(VersionParser.java:72)
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at appeng.services.version.VersionParser.parse(VersionParser.java:34)
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at appeng.services.version.ModVersionFetcher.get(ModVersionFetcher.java:34)
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at appeng.services.VersionChecker.processInterval(VersionChecker.java:106)
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at appeng.services.VersionChecker.run(VersionChecker.java:86)
+[04:14:14] [AE2 VersionChecker/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:-1]: 	at java.lang.Thread.run(Unknown Source)
+[04:14:14] [Client thread/INFO] [FastCraft-core]: 10 / 19 applied
+[04:14:16] [Client thread/INFO] [FastCraft-core]: 11 / 19 applied
+[04:14:16] [Client thread/INFO] [BuildCraft]: Starting BuildCraft 6.4.15
+[04:14:16] [Client thread/INFO] [BuildCraft]: Copyright (c) SpaceToad, 2011-2015
+[04:14:16] [Client thread/INFO] [BuildCraft]: http://www.mod-buildcraft.com
+[04:14:16] [Thread-9/INFO] [BuildCraft]: Beginning version check
+[04:14:16] [Client thread/INFO] [FastCraft-core]: 12 / 19 applied
+[04:14:19] [Client thread/INFO] [Chisel 2]: Starting pre-init...
+[04:14:19] [Client thread/INFO] [Chisel 2]: Loading blocks...
+[04:14:19] [Client thread/INFO] [Chisel 2]: Skipping feature bloodRune as its required mod AWWayofTime was missing.
+[04:14:19] [Client thread/INFO] [Chisel 2]: Skipping feature bloodBlock as its required mod AWWayofTime was missing.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature twilghtForest as its required mod TwilightForest was missing.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature tfMazestone as its parent feature twilghtForest was disabled.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature tfTowerstone as its parent feature twilghtForest was disabled.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature tfUnderBrick as its parent feature twilghtForest was disabled.
+[04:14:21] [Client thread/INFO] [Chisel 2]: 97 Feature's blocks loaded.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Loading Tile Entities...
+[04:14:21] [Client thread/INFO] [Chisel 2]: Tile Entities loaded.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Loading items...
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature bloodRune as its required mod AWWayofTime was missing.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature bloodBlock as its required mod AWWayofTime was missing.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature twilghtForest as its required mod TwilightForest was missing.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature tfMazestone as its parent feature twilghtForest was disabled.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature tfTowerstone as its parent feature twilghtForest was disabled.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Skipping feature tfUnderBrick as its parent feature twilghtForest was disabled.
+[04:14:21] [Client thread/INFO] [Chisel 2]: 97 Feature's items loaded.
+[04:14:21] [Client thread/INFO] [Chisel 2]: Pre-init finished.
+[04:14:21] [Client thread/INFO] [CarpentersBlocks]: Designs found: Bed(6), Chisel(9), FlowerPot(18), Tile(13)
+[04:14:21] [Client thread/INFO] [Forestry]: Module BiomesOPlenty Plugin failed to load: BiomesOPlenty not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module BuildCraft 6 Transport Plugin failed to load: BuildCraft|Transport not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module ExtraUtilities Plugin failed to load: ExtraUtilities not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module Equivalent Exchange 2 Plugin failed to load: Equivalent Exchange not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module FarmCraftory Plugin failed to load: FarmCraftory not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module MagicalCrops Plugin failed to load: Magical Crops not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module Natura Plugin failed to load: Natura not found
+[04:14:21] [Client thread/INFO] [Forestry]: Module PlantMegaPack Plugin failed to load: Plant Mega Pack not found
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for compressedPlantBall
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for matter
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for emptyCell
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for cellEmpty
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for cellWater
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for cellLava
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for cellOxygen
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for cellAir
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for emptyFuelCan
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for fuelCanEmpty
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for fuelCan
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for filledFuelCan
+[04:14:23] [Client thread/INFO] [STDOUT]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for compressedPlantBall
+[04:14:25] [Thread-10/WARN] [Forestry]: Unable to read from remote version authority.
+[04:14:30] [Client thread/INFO] [MagicBees]: Preinit started
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type IRON
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type COPPER
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type TIN
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type SILVER
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type LEAD
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type DIAMOND
+[04:14:30] [Client thread/INFO] [MagicBees]: Disabled nugget DIAMOND
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type EMERALD
+[04:14:30] [Client thread/INFO] [MagicBees]: Disabled nugget EMERALD
+[04:14:30] [Client thread/INFO] [MagicBees]: Found nugget of type APATITE
+[04:14:30] [Client thread/INFO] [MagicBees]: Disabled nugget APATITE
+[04:14:30] [Client thread/INFO] [MagicBees]: Preinit completed
+[04:14:30] [Client thread/INFO] [FastCraft]: FastCraft 1.19 loaded.
+[04:14:30] [Client thread/INFO] [FML]: Applying holder lookups
+[04:14:30] [Client thread/WARN] [FML]: Unable to lookup chisel:cobblestoneWall for public static com.cricketcraft.chisel.block.BlockMarbleWall com.cricketcraft.chisel.init.ChiselBlocks.cobblestoneWall. Is there something wrong with the registry?
+[04:14:30] [Client thread/WARN] [FML]: Unable to lookup chisel:bloodRune for public static com.cricketcraft.chisel.block.BlockCarvable com.cricketcraft.chisel.init.ChiselBlocks.bloodRune. Is there something wrong with the registry?
+[04:14:30] [Client thread/WARN] [FML]: Unable to lookup chisel:bloodBrick for public static com.cricketcraft.chisel.block.BlockCarvable com.cricketcraft.chisel.init.ChiselBlocks.bloodBrick. Is there something wrong with the registry?
+[04:14:30] [Client thread/INFO] [FML]: Holder lookups applied
+[04:14:30] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:14:30] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[04:14:30] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[04:14:30] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:14:30] [Thread-15/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[04:14:30] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:14:30] [Sound Library Loader/INFO]: Sound engine started
+[04:14:31] [Thread-13/WARN] [FastCraft]: Your FastCraft version is outdated.
+[04:14:33] [Client thread/WARN] [FastCraft-core]: The sprite Chisel:snakestone/obsidian/particles/7 caused the mipmap level to drop from 4 to 3 because it's too small (8x8 px).
+[04:14:33] [Client thread/INFO]: Created: 2048x1024 textures/blocks-atlas
+[04:14:34] [Client thread/WARN] [FastCraft-core]: The sprite thaumcraft:focus_primal_depth caused the mipmap level to drop from 4 to 2 because it's too small (6x6 px).
+[04:14:34] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[04:14:34] [Client thread/ERROR] [CodeChickenCore]: Unable to do mod description scrolling due to lack of stencil buffer
+[04:14:34] [Client thread/INFO] [modtweaker2]: Starting Initialization for modtweaker2
+[04:14:34] [Client thread/INFO] [AE2:C]: Initialization ( started )
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.NetherQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.WoodenGear:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.IronNugget:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.EnderDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.Flour:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.NetherQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.EnderDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.Flour:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.NetherQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.EnderDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzCrystal:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.NetherQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.EnderDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.Flour:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.NetherQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.GoldDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.IronDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.Flour:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.NetherQuartzDust:0
+[04:14:34] [Client thread/WARN] [AE2:C]: Unable to register a recipe:Unable to find item: appliedenergistics2:ItemMaterial.CertusQuartzDust:0
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Inscribe: 8 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Shaped: 194 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Pulverizer: 2 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: MekCrusher: 3 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: HCCrusher: 2 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Macerator: 2 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Grind: 4 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: GrindFZ: 7 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: MekEnrichment: 2 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Shapeless: 52 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Crusher: 2 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Smelt: 1 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: OreRegistration: 9 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Recipes Loading: Press: 3 loaded.
+[04:14:34] [Client thread/INFO] [AE2:C]: Initialization ( ended after 260ms )
+[04:14:35] [Client thread/INFO] [Chisel 2]: Starting init...
+[04:14:35] [Client thread/INFO] [Chisel 2]: Loading recipes...
+[04:14:35] [Client thread/INFO] [Chisel 2]: Skipping feature bloodRune as its required mod AWWayofTime was missing.
+[04:14:35] [Client thread/INFO] [Chisel 2]: Skipping feature bloodBlock as its required mod AWWayofTime was missing.
+[04:14:35] [Client thread/INFO] [Chisel 2]: Skipping feature twilghtForest as its required mod TwilightForest was missing.
+[04:14:35] [Client thread/INFO] [Chisel 2]: Skipping feature tfMazestone as its parent feature twilghtForest was disabled.
+[04:14:35] [Client thread/INFO] [Chisel 2]: Skipping feature tfTowerstone as its parent feature twilghtForest was disabled.
+[04:14:35] [Client thread/INFO] [Chisel 2]: Skipping feature tfUnderBrick as its parent feature twilghtForest was disabled.
+[04:14:35] [Client thread/INFO] [Chisel 2]: 97 Feature's recipes loaded.
+[04:14:35] [Client thread/INFO] [Chisel 2]: Init finished.
+[04:14:35] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerOre:1343]: Material Name: bottleSoySauce !!!Unknown Material detected!!! Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:36] [Client thread/INFO] [MagicBees]: Init completed
+[04:14:36] [Client thread/ERROR] [DamageIndicatorsMod]: The language resource assets/damageindicatorsmod/lang/zh_CN.lang cannot be located on the classpath. This is a programming error.
+[04:14:36] [Client thread/ERROR] [DamageIndicatorsMod]: The language resource assets/damageindicatorsmod/lang/en_US.lang cannot be located on the classpath. This is a programming error.
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] A call to initialise, entry point: FORGE.
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Obfuscation check, please ignore the following errors (if they come up).
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Could not retrieve field "mcProfiler" from class "net.minecraft.client.Minecraft"
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Obfuscation check completed.
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Minecraft Forge is installed.
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] LiteLoader is not installed.
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Using Forge for the mod operation.
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Could not retrieve field "inventorySlots" from class "forestry.core.gui.GuiForestry"
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Successfully reflected CodeChickenCore!
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Successfully reflected NEI!
+[04:14:36] [Client thread/INFO] [STDOUT]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Mouse Tweaks has been initialised.
+[04:14:42] [Client thread/INFO] [Waila]: Receiving registration request from [ appliedenergistics2 ] for method appeng.integration.modules.Waila.register
+[04:14:42] [Client thread/INFO] [Waila]: Receiving registration request from [ chisel ] for method com.cricketcraft.chisel.compat.WailaCompat.register
+[04:14:42] [Client thread/INFO] [STDOUT]: [minetweaker.MineTweakerAPI:registerClassRegistry:285]: Loaded class registry: IC2 mod support
+[04:14:42] [Client thread/INFO] [STDOUT]: [minetweaker.MineTweakerAPI:registerClassRegistry:285]: Loaded class registry: NEI mod support
+[04:14:42] [Client thread/INFO] [STDOUT]: [minetweaker.MineTweakerAPI:registerClassRegistry:285]: Loaded class registry: MFR mod support
+[04:14:42] [Client thread/INFO] [STDOUT]: [minetweaker.MineTweakerAPI:registerClassRegistry:285]: Loaded class registry: GregTech mod support
+[04:14:42] [Client thread/INFO] [STDOUT]: [minetweaker.MineTweakerAPI:registerClassRegistry:285]: Loaded class registry: Buildcraft mod support
+[04:14:42] [Client thread/INFO] [modtweaker2]: Starting PostInitialization for modtweaker2
+[04:14:42] [Client thread/INFO] [AE2:C]: Post Initialization ( started )
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBus loaded successfully - 5294 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBus loaded successfully - 2442 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBus loaded successfully - 1070 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIEnergySink_TileCableBus loaded successfully - 4248 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIEnergySource_TileCableBus loaded successfully - 4184 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIEnergyHandler_TileCableBus loaded successfully - 1801 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIPipeConnection_TileCableBus loaded successfully - 1352 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerISidedInventory_TileCableBusTESR loaded successfully - 5306 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIFluidHandler_TileCableBusTESR loaded successfully - 2454 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerITileStorageMonitorable_TileCableBusTESR loaded successfully - 1082 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIEnergySink_TileCableBusTESR loaded successfully - 4260 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIEnergySource_TileCableBusTESR loaded successfully - 4196 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIEnergyHandler_TileCableBusTESR loaded successfully - 1813 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Layer: appeng/parts/layers/LayerIPipeConnection_TileCableBusTESR loaded successfully - 1364 bytes
+[04:14:42] [Client thread/INFO] [AE2:C]: Industrial Craft 2 - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: Rotary Craft - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Railcraft - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: BuildCraft - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: RedstoneFlux Power - Tiles - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: RedstoneFlux Power - Items - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: Mine Factory Reloaded - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Deep Storage Unit - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: Factorization - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Forge MultiPart - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Rotatable Blocks - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Colored Lights Core - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Waila - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: Inventory Tweaks - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Not Enough Items - Integration Enable
+[04:14:42] [Client thread/INFO] [AE2:C]: Craft Guide - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Mekanism - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: ImmibisMicroblocks - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: BetterStorage - Integration Disabled
+[04:14:42] [Client thread/INFO] [AE2:C]: Post Initialization ( ended after 285ms )
+[04:14:42] [Client thread/INFO] [IC2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[04:14:42] [Client thread/INFO] [IC2.General]: IC2 version 2.2.719-experimental loaded.
+[04:14:42] [Client thread/INFO] [BuildCraft]: BuildCraft's fake player: UUID = 77456a1f-b9f9-3f84-8863-ddef5b8e2209, name = '[BuildCraft]'!
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Found potion array with a size of 32
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Extending Potion.potionTypes array to 40
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionFluxTaint with id 31
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionVisExhaust with id 32
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionInfectiousVisExhaust with id 33
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionUnnaturalHunger with id 34
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionWarpWard with id 35
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionDeathGaze with id 36
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionBlurredVision with id 37
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionSunScorned with id 38
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Initializing PotionThaumarhia with id 39
+[04:14:43] [Client thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [朝鲜蓟]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [芦笋]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [竹笋]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [大麦]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [大豆]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [甜菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [甜椒]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [黑莓]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [蓝莓]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [西兰花]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [芽甘蓝]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [卷心菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [仙人掌]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [蜡杨梅]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [哈密瓜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [花椰菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [芹菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [红辣椒]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [咖啡豆]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [玉米]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [棉花]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [蔓越橘]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [黄瓜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [茄子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [大蒜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [姜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [葡萄]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [芹菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [生菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [芥末]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [燕麦]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [秋葵]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [洋葱]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [防风草]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [花生]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [豌豆]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [凤梨]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [白萝卜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [树莓]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [大黄]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [水稻]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [芜菁甘蓝]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [黑麦]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [青葱]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [海藻]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [黄豆]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [香料叶]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [菠菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [草莓]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [番薯]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [茶叶]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [番茄]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [大头菜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [白蘑菇]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [笋瓜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [西葫芦]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的苹果]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的扁桃]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的杏子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的鳄梨]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的香蕉]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的腰果]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的樱桃]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的栗子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的肉桂]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的椰子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的枣椰]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的火龙果]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的榴莲]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的无花果]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的葡萄柚]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的柠檬]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的酸橙]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的芒果]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的枫树]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的肉豆蔻]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的橄榄]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的橙子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的木瓜]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的白千层]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的桃子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的梨]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的山核桃]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的胡椒]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的柿子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的开心果]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的李子]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的石榴]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的杨桃]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的香草豆荚]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Adding standard crop support for [未成熟的胡桃]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Zombie] to spawn champion mobs at level [0]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Spider] to spawn champion mobs at level [0]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Blaze] to spawn champion mobs at level [0]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Enderman] to spawn champion mobs at level [0]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Skeleton] to spawn champion mobs at level [0]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Witch] to spawn champion mobs at level [1]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Thaumcraft.EldritchCrab] to spawn champion mobs at level [0]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Thaumcraft.Taintacle] to spawn champion mobs at level [2]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Thaumcraft.Wisp] to spawn champion mobs at level [1]
+[04:14:43] [Client thread/WARN] [THAUMCRAFT]: Whitelisting [Thaumcraft.InhabitedZombie] to spawn champion mobs at level [3]
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "Knowledge"
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "Flying Scotsman"
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "Railcraft"
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "Bone Dead"
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "Toy Sword"
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "All Aboard"
+[04:14:43] [Client thread/INFO] [Railcraft]: Loaded Emblem - "Stone Age Miner"
+[04:14:44] [Client thread/WARN] [Railcraft]: Could not register CraftGuide plugins: CraftGuide missing.
+[04:14:44] [Client thread/INFO] [Forestry]: Skipping CraftGuide integration.
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] * * * * * * Start parsing MT recipes * * * * * * 
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] * * * * * * Finished parsing MT recipes * * * * * * 
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] Config loading completed, 29 recipes parsed.
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] * * * * * * Loaded recipes list * * * * * * 
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 凋灵骷髅头颅 -> 下界之星 [250000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 铁锭 -> 铱矿 [9000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 地狱岩 -> 火药 [70000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 沙子 -> 沙砾 [50000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 泥土 -> 粘土块 [50000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 木炭 -> 煤炭 [60000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 萤石粉 -> 小块阳光化合物 [1000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 萤石 -> 阳光化合物 [9000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 黄色羊毛 -> 萤石 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 蓝色羊毛 -> 青金石块 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 红色羊毛 -> 红石块 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 青金石 -> gt.metaitem.01.8503.name [5000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 红石 -> gt.metaitem.01.8502.name [5000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 煤炭 -> 工业钻石 [9000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 工业钻石 -> 钻石 [1000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] gt.metaitem.01.2028.name -> gt.metaitem.01.2030.name [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] gt.metaitem.01.11028.name -> gt.metaitem.01.11030.name [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 下界石英 -> gt.metaitem.01.8516.name [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 铜锭 -> gt.metaitem.01.11034.name [300000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 铜锭 -> gt.metaitem.01.11034.name [300000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 铜锭 -> gt.metaitem.01.11034.name [300000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] gt.metaitem.01.11035.name -> gt.metaitem.01.11034.name [300000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 锡锭 -> 银锭 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 锡锭 -> 银锭 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 锡锭 -> 银锭 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] gt.metaitem.01.11057.name -> 银锭 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 银锭 -> 金锭 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] gt.metaitem.01.11054.name -> 金锭 [500000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] 金锭 -> gt.metaitem.01.11085.name [9000000 EU]
+[04:14:44] [Client thread/INFO] [STDOUT]: [advsolar.common.AdvancedSolarPanel:addLog:137]: [AdvancedSolarPanel] * * * * * * * * * * * * * * * * * * * * *
+[04:14:44] [Client thread/INFO] [MagicBees]: Postinit completed
+[04:14:44] [Client thread/INFO] [STDOUT]: [mcp.mobius.waila.gui.truetyper.TrueTypeFont:<init>:98]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[04:14:44] [Client thread/INFO] [STDOUT]: [com.thevoxelbox.voxelmap.Map:<init>:387]: could not get entityRenderMap
+[04:14:45] [Client thread/INFO] [FML]: If your Log stops here, you were too impatient. Wait a bit more next time, before killing Minecraft with the Task Manager.
+[04:14:46] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: riceCake !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:46] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: whiteSauce !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:46] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: mapleDiamondBlock !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:47] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: mashedPotato !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:47] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: doughOfOkonomiyaki !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:47] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: gratinBeforeBaking !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:47] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: VanillaBean !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:47] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: redBeanSoup !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: hotCake !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Onion !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: shrimpAndMacaroniGratin !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: friedPotatoes !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: curryRice !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: porkCutletCurry !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:48] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: cookedMochi !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:49] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: demantoidGarnetBlue !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:50] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: momijiManju !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:50] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: unhulledStickyRice !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:50] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: redBeansRice !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: maplePudding !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: vanillaSheath !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: blackMarble !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Flour !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Grape !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Tomato !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:51] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: tofuKinu !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: deepFriedChicken !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: grapeSeed !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: mapleDiamond !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: rapeseedOil !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: AzukiBeans !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: onionSeeds !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: nikuJaga !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: fishPaste !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:52] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: worcesterSauce !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:53] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: demantoidGarnet !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:53] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: eggplantSeeds !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:54] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Eggplant !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:54] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: vanillaBeans !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:54] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: boiledStickyRice !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:54] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: meatSauce !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:55] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: azukiBeanPaste !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:55] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: japaneseRadishSeeds !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:55] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Blackpepper !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:56] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: porkCutlets !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:56] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: cheeseBurger !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:56] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: okonomiyakiPlus !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:57] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: greenPeppercornBunch !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:57] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Radish !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:57] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: softCreamVanilla !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:57] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: driedCuttlefish !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:58] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: grapePoundCake !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:58] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: japaneseRadish !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:58] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: redPeppercornBunch !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:58] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: roastChestnuts !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:58] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: ikaMeshi !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:14:58] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: friedPrawns !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:00] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: demantoidGarnetYellow !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:00] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: rapeSeeds !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:00] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Salt !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:02] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: cabbageSeeds !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:02] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: vanillaSeed !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:02] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: blackPepper !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:02] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: mapoEggplant !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:02] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: tomatoKetchup !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:02] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: cabbageRoll !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:03] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: Vanilla !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:03] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: furofukiDaikon !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:03] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: mozCheeseBurger !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:04] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: tomatoSeeds !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:04] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: currySpice !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:04] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: toastedRiceCake !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:05] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: whiteStew !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:05] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: whitePepper !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:05] [Client thread/INFO] [STDOUT]: [gregtech.common.GT_Proxy:registerRecipes:1849]: Thingy Name: friedCalamari !!!Unknown 'Thingy' detected!!! This Object seems to probably not follow a valid OreDictionary Convention, or I missed a Convention. Please report to GregTech Intergalactical for additional compatiblity. This is not an Error, an Issue nor a Lag Source, it is just an Information, which you should pass to me.
+[04:15:05] [Client thread/INFO] [FML]: Congratulations, you have been waiting long enough. Have a Cake.
+[04:15:06] [Client thread/INFO] [Waila]: [EnderStorage] EnderStorage mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [GraveStone] GraveStone mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [TwilightForestMod] TwilightForestMod mod not found.
+[04:15:06] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.IEnergyInfo
+[04:15:06] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: thermalexpansion.block.cell.TileCell
+[04:15:06] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: thermalexpansion.block.tank.TileTank
+[04:15:06] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: thermalexpansion.block.ender.TileTesseract
+[04:15:06] [Client thread/WARN] [Waila]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[04:15:06] [Client thread/INFO] [Waila]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [ProjectRed] ProjectRed|Integration mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [ExtraUtilities] ExtraUtilities mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [OpenBlocks] OpenBlocks mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: Railcraft mod found.
+[04:15:06] [Client thread/INFO] [Waila]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [MagicalCrops] MagicalCrops mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [Statues] Statues mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: [Agriculture] Agriculture mod not found.
+[04:15:06] [Client thread/INFO] [Waila]: Trying to reflect appeng.integration.modules.Waila register
+[04:15:06] [Client thread/INFO] [Waila]: Success in registering appliedenergistics2
+[04:15:06] [Client thread/INFO] [Waila]: Trying to reflect com.cricketcraft.chisel.compat.WailaCompat register
+[04:15:06] [Client thread/INFO] [Waila]: Success in registering chisel
+[04:15:06] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 42 mods
+[04:15:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:MineTweaker 3, FMLFileResourcePack:GTTweaker, FMLFileResourcePack:Mod Tweaker 2, FMLFileResourcePack:Chisel 2, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:MapleTree, FMLFileResourcePack:GregTech, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Grimoire of Gaia 3, FMLFileResourcePack:BambooMod, FMLFileResourcePack:Graviation Suite, FMLFileResourcePack:Railcraft, FMLFileResourcePack:IC2 Laser Fix, FMLFileResourcePack:Advanced Solar Panels, FMLFileResourcePack:Magic Bees, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Waila, FMLFileResourcePack:VoxelMap No Radar, FMLFileResourcePack:FastCraft, FMLFileResourcePack:UnicodeFontFixer, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Baubles, FMLFileResourcePack:Carpenter's Blocks Cached Resources
+[04:15:06] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:15:06] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[04:15:07] [Client thread/INFO] [STDOUT]: [gregtech.common.blocks.GT_Block_Machines:func_149651_a:276]: GT_Mod: Starting Block Icon Load Phase
+[04:15:07] [Client thread/INFO] [STDOUT]: [gregtech.common.blocks.GT_Block_Machines:func_149651_a:288]: GT_Mod: Finished Block Icon Load Phase
+[04:15:09] [Client thread/WARN] [FastCraft-core]: The sprite Chisel:snakestone/obsidian/particles/7 caused the mipmap level to drop from 4 to 3 because it's too small (8x8 px).
+[04:15:09] [Client thread/INFO]: Created: 2048x2048 textures/blocks-atlas
+[04:15:09] [Client thread/INFO] [STDOUT]: [gregtech.common.items.GT_IntegratedCircuit_Item:func_94581_a:86]: GT_Mod: Starting Item Icon Load Phase
+[04:15:09] [Client thread/INFO] [STDOUT]: [gregtech.common.items.GT_IntegratedCircuit_Item:func_94581_a:99]: GT_Mod: Finished Item Icon Load Phase
+[04:15:10] [Client thread/WARN] [FastCraft-core]: The sprite thaumcraft:focus_primal_depth caused the mipmap level to drop from 4 to 2 because it's too small (6x6 px).
+[04:15:10] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
+[04:15:10] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:15:10] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[04:15:10] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[04:15:10] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:15:10] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:15:10] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[04:15:11] [Thread-22/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[04:15:11] [Thread-22/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:15:11] [Thread-22/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: The following texture errors were found.
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:   DOMAIN gravisuite
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: --------------------------------------------------
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:   domain gravisuite is missing 1 texture
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:     domain gravisuite has 1 location:
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       mod GraviSuite resources at E:\A\世界\格雷时代2\.minecraft\mods\[重力装甲]GraviSuite-1.7.10-2.0.3.jar
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:     The missing resources for domain gravisuite are:
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/blocks/block_side.png.png
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:     No other errors exist for domain gravisuite
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:   DOMAIN gregtech
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: --------------------------------------------------
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:   domain gregtech is missing 5 textures
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:     domain gregtech has 1 location:
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       mod gregtech resources at E:\A\世界\格雷时代2\.minecraft\mods\[格雷科技]gregtech_1.7.10-5.08.16.jar
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:     The missing resources for domain gregtech are:
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/items/gt.metaitem.01/620.png
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/items/gt.metaitem.01/623.png
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/items/gt.metaitem.01/621.png
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/items/gt.metaitem.01/622.png
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:       textures/items/gt.metaitem.01/624.png
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: -------------------------
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]:     No other errors exist for domain gregtech
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: ==================================================
+[04:15:11] [Client thread/ERROR] [TEXTURE ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[04:15:11] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:15:11] [Sound Library Loader/INFO]: Sound engine started
+[04:15:11] [Client thread/INFO] [FastCraft-core]: 13 / 19 applied
+[04:15:13] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [CodeChickenCore, NotEnoughItems, InputFix, uniskinmod, Thaumcraft, Waila, voxelmap, FastCraft, UnicodeFontFixer, DamageIndicatorsMod, MouseTweaks] at SERVER
+[04:15:13] [Netty Client IO #0/INFO] [FML]: Rejecting connection SERVER: [FMLMod:Railcraft{9.6.1.0}]
+[04:15:14] [Netty Client IO #1/INFO] [FML]: Attempting connection with missing mods [CodeChickenCore, NotEnoughItems, InputFix, uniskinmod, Waila, voxelmap, FastCraft, UnicodeFontFixer, DamageIndicatorsMod, MouseTweaks] at SERVER
+[04:15:14] [Netty Client IO #1/INFO] [FML]: Rejecting connection SERVER: [FMLMod:Railcraft{9.6.1.0}, FMLMod:IC2{2.2.719-experimental}]
+[04:15:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[04:15:20] [Server thread/INFO]: Generating keypair
+[04:15:20] [Server thread/INFO] [STDOUT]: [minetweaker.runtime.MTTweaker:load:106]: Loading scripts
+[04:15:20] [Server thread/INFO] [STDOUT]: [minetweaker.runtime.MTTweaker:load:152]: MineTweaker: Loading Advanced-Solar-Panels.zs
+[04:15:20] [Server thread/INFO] [STDOUT]: [minetweaker.runtime.MTTweaker:load:152]: MineTweaker: Loading test.zs
+[04:15:20] [Server thread/INFO] [STDOUT]: [minetweaker.runtime.MTTweaker:load:152]: MineTweaker: Loading intermod
+[04:15:20] [Server thread/INFO] [fml.ModTracker]: This world was saved with mod IC2 version 2.2.720-experimental and it is now at version 2.2.719-experimental, things may not work well
+[04:15:20] [Server thread/INFO] [fml.ModTracker]: This world was saved with mod Railcraft version 9.5.0.0 and it is now at version 9.6.1.0, things may not work well
+[04:15:20] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[04:15:20] [Server thread/INFO] [FML]: Applying holder lookups
+[04:15:20] [Server thread/WARN] [FML]: Unable to lookup chisel:cobblestoneWall for public static com.cricketcraft.chisel.block.BlockMarbleWall com.cricketcraft.chisel.init.ChiselBlocks.cobblestoneWall. Is there something wrong with the registry?
+[04:15:20] [Server thread/WARN] [FML]: Unable to lookup chisel:bloodRune for public static com.cricketcraft.chisel.block.BlockCarvable com.cricketcraft.chisel.init.ChiselBlocks.bloodRune. Is there something wrong with the registry?
+[04:15:20] [Server thread/WARN] [FML]: Unable to lookup chisel:bloodBrick for public static com.cricketcraft.chisel.block.BlockCarvable com.cricketcraft.chisel.init.ChiselBlocks.bloodBrick. Is there something wrong with the registry?
+[04:15:20] [Server thread/INFO] [FML]: Holder lookups applied
+[04:15:20] [Server thread/INFO] [FastCraft-core]: 14 / 19 applied
+[04:15:20] [Server thread/INFO] [FastCraft-core]: 15 / 19 applied
+[04:15:21] [Server thread/INFO] [FML]: Loading dimension 0 (新的世界) (net.minecraft.server.integrated.IntegratedServer@135f4b78)
+[04:15:21] [Server thread/INFO] [FML]: Loading dimension -42 (新的世界) (net.minecraft.server.integrated.IntegratedServer@135f4b78)
+[04:15:21] [Server thread/INFO] [FastCraft-core]: 16 / 19 applied
+[04:15:21] [Server thread/INFO] [FML]: Loading dimension 1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@135f4b78)
+[04:15:21] [Server thread/INFO] [FML]: Loading dimension -1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@135f4b78)
+[04:15:21] [Server thread/INFO]: Preparing start region for level 0
+[04:15:21] [Server thread/INFO] [modtweaker2]: Starting ServerStart for modtweaker2
+[04:15:22] [Server thread/INFO]: Changing view distance to 8, from 10
+[04:15:22] [Server thread/INFO] [FastCraft-core]: 17 / 19 applied
+[04:15:22] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
+[04:15:22] [Netty IO #1/INFO] [FML]: Client protocol version 2
+[04:15:22] [Netty IO #1/INFO] [FML]: Client attempting to join with 42 mods : NotEnoughItems@1.0.4.83,Thaumcraft@4.2.3.5,UnicodeFontFixer@1.0.3,Waila@1.5.8,BuildCraft|Silicon@6.4.15,BambooMod@Minecraft1.7.10 var2.6.8.3,appliedenergistics2-core@rv2-stable-1,FastCraft@1.19,Forge@10.13.3.1370,IronChest@6.0.62.742,BuildCraft|Core@6.4.15,CodeChickenCore@1.0.4.35,MouseTweaks@2.4.4,MagicBees@1.7.10-2.3.1,MineTweaker3@3.0.9B,modtweaker2@0.8.2,BuildCraft|Energy@6.4.15,AdvancedSolarPanel@1.7.10-3.5.1,IC2@2.2.719-experimental,GTTweaker@0.7.0,mcp@9.05,DamageIndicatorsMod@3.2.3,appliedenergistics2@rv2-stable-1,bambootransformer@1.0.0,InputFix@1.7.x-v2,FML@7.10.112.1370,IC2LaserFix@2.0,uniskinmod@1.2-dev3,BuildCraft|Transport@6.4.15,harvestcraft@1.7.10g,chisel@2.3.7.34,Baubles@1.0.1.10,GrimoireOfGaia@1.0.0,BuildCraft|Factory@6.4.15,mod_ecru_MapleTree@1.1.28b,Railcraft@9.6.1.0,GraviSuite@1.7.10-2.0.3,voxelmap@1.7.10,Forestry@3.5.6.15,gregtech@MC1710,BuildCraft|Builders@6.4.15,CarpentersBlocks@3.3.4 DEV R2
+[04:15:22] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[04:15:22] [Netty Client IO #2/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[04:15:22] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[04:15:22] [Server thread/INFO]: jhxs[local:E:612bb3dc] logged in with entity id 154 at (-268.8050994073959, 67.0, 160.2728425655276)
+[04:15:22] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[04:15:22] [Server thread/INFO]: jhxs 加入了游戏
+[04:15:22] [Server thread/INFO] [FastCraft-core]: 18 / 19 applied
+[04:15:22] [Client thread/INFO] [FastCraft-core]: 19 / 19 applied
+[04:15:22] [Server thread/INFO] [Waila]: Player EntityPlayerMP['jhxs'/154, l='新的世界', x=-268.81, y=67.00, z=160.27] connected. Sending ping
+[04:15:22] [Client thread/INFO]: [CHAT] Your client's FastCraft version needs updating.
+[04:15:22] [Client thread/INFO]: [CHAT] [Click here for the latest download].
+[04:15:23] [Client thread/INFO]: [CHAT] ERROR: Advanced-Solar-Panels.zs:91: Could not resolve <dreamcraft : item . MasterCircuit>
+[04:15:23] [Client thread/INFO]: [CHAT] ERROR: Advanced-Solar-Panels.zs:118: Could not resolve <dreamcraft : item . SuperCircuit>
+[04:15:23] [Client thread/INFO] [THAUMCRAFT]: Client received server config settings.
+[04:15:23] [Client thread/INFO] [THAUMCRAFT]: CHEAT_SHEET[false], WARDED_STONE[true], MIRRORS[true], HARD_NODES[true], WUSS_MODE[false], RESEARCH_DIFFICULTY[0], ASPECT_TOTAL_CAP[100
+[04:15:24] [pool-2-thread-1/INFO] [UniSkinMod]: Invoked for Player: jhxs
+[04:15:26] [Client thread/INFO] [STDOUT]: [ic2.neiIntegration.core.NEIIC2Config:loadConfig:37]: IC2 NEI Submodule initialized
+[04:15:26] [Client thread/INFO] [STDOUT]: [advsolar.client.nei.NEIASPConfig:loadConfig:10]: [Advanced Solar Panels]: Loading NEI compatibility...
+[04:15:26] [Client thread/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
+[04:15:26] [Client thread/INFO]: [CHAT] Damage Indicators v.3.2.3.0 is up to date.
+[04:15:26] [Client thread/WARN] [FML]: =============================================================
+[04:15:26] [Client thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[04:15:26] [Client thread/WARN] [FML]: Offendor: truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
+[04:15:26] [Client thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[04:15:26] [Client thread/WARN] [FML]: =============================================================
+[04:15:26] [Client thread/INFO] [STDOUT]: [truetyper.TrueTypeFont:<init>:94]: TrueTypeFont loaded: java.awt.Font[family=Arial,name=Arial,style=plain,size=12] - AntiAlias = true
+[04:15:27] [Client thread/INFO] [STDOUT]: [gravisuite.GraviSuite:addLog:148]: [GraviSuite] Keyregistry: IC2 ALT key found
+[04:15:27] [Client thread/INFO] [STDOUT]: [gravisuite.GraviSuite:addLog:148]: [GraviSuite] Keyregistry: IC2 Boost key found
+[04:15:27] [Client thread/INFO] [STDOUT]: [gravisuite.GraviSuite:addLog:148]: [GraviSuite] Keyregistry: IC2 MODE SWITCH key found
+[04:15:28] [Server thread/INFO]: Saving and pausing game...
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/Overworld
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/Nether
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/The End
+[04:15:28] [Server thread/INFO]: Saving chunks for level '新的世界'/The Outer Lands
+[04:16:17] [Client thread/INFO]: Stopping!
+[04:16:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:16:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[04:16:17] [Server thread/INFO]: Stopping server
+[04:16:17] [Server thread/INFO]: Saving players
+[04:16:17] [Server thread/INFO]: Saving worlds
+[04:16:17] [Netty Client IO #2/INFO] [THAUMCRAFT]: Restoring client configs.
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/Overworld
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/Nether
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/The End
+[04:16:17] [Server thread/INFO]: Saving chunks for level '新的世界'/The Outer Lands
+[04:16:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[04:16:17] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[04:16:17] [Client Shutdown Thread/INFO]: Stopping server

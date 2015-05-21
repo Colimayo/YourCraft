@@ -1,0 +1,153 @@
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 15-5-22 上午2:37
+Description: Unexpected error
+
+java.lang.IllegalArgumentException: Cannot create a fluidstack from a null fluid
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:29)
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:59)
+	at mods.railcraft.common.fluids.TankManager.processGuiUpdate(TankManager.java:192)
+	at mods.railcraft.common.gui.containers.ContainerEngineSteamHobby.func_75137_b(ContainerEngineSteamHobby.java:110)
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147245_a(NetHandlerPlayClient.java:1151)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:26)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:9)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78765_e(PlayerControllerMP.java:273)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1590)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:961)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:887)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jackhuang.hellominecraft.launcher.Launcher.main(SourceFile:127)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:29)
+	at net.minecraftforge.fluids.FluidStack.<init>(FluidStack.java:59)
+	at mods.railcraft.common.fluids.TankManager.processGuiUpdate(TankManager.java:192)
+	at mods.railcraft.common.gui.containers.ContainerEngineSteamHobby.func_75137_b(ContainerEngineSteamHobby.java:110)
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147245_a(NetHandlerPlayClient.java:1151)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:26)
+	at net.minecraft.network.play.server.S31PacketWindowProperty.func_148833_a(SourceFile:9)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78765_e(PlayerControllerMP.java:273)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['jhxs'/2563, l='MpServer', x=-101.26, y=76.62, z=304.13]]
+	Chunk stats: MultiplayerChunkCache: 94, 94
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-96,64,240), Chunk: (at 0,4,0 in -6,15; contains blocks -96,0,240 to -81,255,255), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 3837 game time, 3837 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 24 total; [EntitySkeleton['骷髅'/3456, l='MpServer', x=-71.31, y=11.00, z=326.72], EntityGaiaMimic['Mimic'/3522, l='MpServer', x=-98.50, y=14.00, z=340.50], EntityCreeper['爬行者'/3400, l='MpServer', x=-67.06, y=64.00, z=272.25], EntityGaiaMimic['Mimic'/3273, l='MpServer', x=-73.50, y=16.00, z=333.50], EntityGaiaMimic['Mimic'/3274, l='MpServer', x=-74.06, y=12.00, z=329.50], EntityGaiaBoneKnight['Bone Knight'/3275, l='MpServer', x=-72.50, y=16.00, z=333.50], EntityClientPlayerMP['jhxs'/2563, l='MpServer', x=-101.26, y=76.62, z=304.13], EntityCow['牛'/77, l='MpServer', x=-125.06, y=69.00, z=350.50], EntityWaypointContainer['未知'/462, l='MpServer', x=0.00, y=0.00, z=0.00], EntityCow['牛'/144, l='MpServer', x=-52.19, y=68.00, z=345.75], EntityPig['猪'/81, l='MpServer', x=-123.50, y=69.00, z=349.50], EntityGaiaCreep['Creep'/3602, l='MpServer', x=-92.50, y=55.00, z=266.50], EntityPig['猪'/83, l='MpServer', x=-123.81, y=69.00, z=352.81], EntityGaiaCreep['Creep'/3603, l='MpServer', x=-91.50, y=55.00, z=262.50], EntityPig['猪'/84, l='MpServer', x=-121.09, y=69.00, z=350.09], EntityPig['猪'/150, l='MpServer', x=-53.69, y=68.00, z=352.69], EntitySkeleton['骷髅'/3288, l='MpServer', x=-94.31, y=59.00, z=291.16], EntityGaiaDryad['Dryad'/3547, l='MpServer', x=-85.50, y=73.00, z=272.50], EntityGaiaDryad['Dryad'/3548, l='MpServer', x=-88.50, y=73.00, z=273.50], EntityGaiaDryad['Dryad'/3549, l='MpServer', x=-89.50, y=73.00, z=277.50], EntityCreeper['爬行者'/2789, l='MpServer', x=-95.66, y=55.00, z=271.06], EntityGaiaSatyr['Satyr'/3129, l='MpServer', x=-128.16, y=69.00, z=283.66], EntityZombie['僵尸'/3454, l='MpServer', x=-77.50, y=16.00, z=331.50], EntityEnderman['末影人'/3263, l='MpServer', x=-94.22, y=57.00, z=277.97]]
+	Retry entities: 0 total; []
+	Server brand: cauldron,craftbukkit,mcpc,fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:373)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2432)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:916)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jackhuang.hellominecraft.launcher.Launcher.main(SourceFile:127)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_45, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 756246160 bytes (721 MB) / 1425276928 bytes (1359 MB) up to 4225236992 bytes (4029 MB)
+	JVM Flags: 5 total; -Xincgc -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmx4096m
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 5, allocated: 21, tallocated: 126
+	FML: MCP v9.05 FML v7.10.112.1370 Minecraft Forge 10.13.3.1370 42 mods loaded, 42 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	FML{7.10.112.1370} [Forge Mod Loader] (forge-1.7.10-10.13.3.1370-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Forge{10.13.3.1370} [Minecraft Forge] (forge-1.7.10-10.13.3.1370-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	appliedenergistics2-core{rv2-stable-1} [AppliedEnergistics2 Core] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	bambootransformer{1.0.0} [BambooTransformer] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	CodeChickenCore{1.0.4.35} [CodeChicken Core] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	NotEnoughItems{1.0.4.83} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.4.83-universal.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	InputFix{1.7.x-v2} [InputFix] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	uniskinmod{1.2-dev3} [Universal Skin Mod] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	MineTweaker3{3.0.9B} [MineTweaker 3] ([上帝]MineTweaker3-1.7.10-3.0.9C.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	GTTweaker{0.7.0} [GTTweaker] ([上帝三号]GTTweaker-1.7.10-0.7.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	modtweaker2{0.8.2} [Mod Tweaker 2] ([上帝二号]ModTweaker 2-0.8.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	appliedenergistics2{rv2-stable-1} [Applied Energistics 2] ([应用能源]appliedenergistics2-rv2-stable-1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	IC2{2.2.719-experimental} [IndustrialCraft 2] ([工业2]industrialcraft-2-2.2.719-experimental.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Core{6.4.15} [BuildCraft] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Builders{6.4.15} [BC Builders] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Energy{6.4.15} [BC Energy] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Factory{6.4.15} [BC Factory] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Forestry{3.5.6.15} [Forestry for Minecraft] ([林业]forestry_1.7.10-3.5.6.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Railcraft{9.5.0.0} [Railcraft] ([铁路]Railcraft_1.7.10-9.5.0.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	chisel{2.3.7.34} [Chisel 2] ([凿子]Chisel2-2.3.7.34.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Transport{6.4.15} [BC Transport] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BuildCraft|Silicon{6.4.15} [BC Silicon] ([建筑]buildcraft-6.4.15.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	IronChest{6.0.62.742} [Iron Chest] ([更多箱子]ironchest-1.7.10-6.0.62.742-universal.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	CarpentersBlocks{3.3.4 DEV R2} [Carpenter's Blocks] ([木匠]的方块.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	mod_ecru_MapleTree{1.1.28b} [MapleTree] ([枫树]MapleTree Forge v1.1.28b.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	harvestcraft{1.7.10g} [Pam's HarvestCraft] ([潘马斯]Pam 27s HarvestCraft 1.7.10h.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	gregtech{MC1710} [GregTech] ([格雷科技]gregtech_1.7.10-5.08.16.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	GrimoireOfGaia{1.0.0} [Grimoire of Gaia 3] ([盖亚魔典]GrimoireOfGaia3-1.7.10-1.0.9.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	BambooMod{Minecraft1.7.10 var2.6.8.3} [BambooMod] ([竹]Bamboo-1.7.10-2.6.8.3-The_Xu.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	GraviSuite{1.7.10-2.0.3} [Graviation Suite] ([重力装甲]GraviSuite-1.7.10-2.0.3.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	IC2LaserFix{2.0} [IC2 Laser Fix] ([镭射枪修复]IC2LaserFix-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] ([高级太阳能]AdvancedSolarPanel-1.7.10-3.5.1.jar.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	MagicBees{1.7.10-2.3.1} [Magic Bees] ([魔法林业]magicbees-1.7.10-2.3.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	Waila{1.5.8} [Waila] (客户端-头顶显示 Waila-1.5.9_1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	voxelmap{1.7.10} [VoxelMap No Radar] (客户端-小地图 VoxelMap-No-Radar-Mod-1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	FastCraft{1.19} [FastCraft] (客户端-快速修复fastcraft-1.19.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	UnicodeFontFixer{1.0.3} [UnicodeFontFixer] (客户端-自体修复UnicodeFontFixer-1.0.3-mc1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	DamageIndicatorsMod{3.2.3} [Damage Indicators] (客户端-血量显示  [1.7.10]DamageIndicatorsMod-3.2.3.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	MouseTweaks{2.4.4} [Mouse Tweaks] (客户端-鼠标整理 MouseTweaks-2.4.4-mc1.7.10.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available
+	AE2 Version: stable rv2-stable-1 for Forge 10.13.2.1291
+	AE2 Integration: IC2:ON, RotaryCraft:OFF, RC:ON, BC:ON, RF:ON, RFItem:ON, MFR:OFF, DSU:ON, FZ:OFF, FMP:OFF, RB:OFF, CLApi:OFF, Waila:ON, InvTweaks:OFF, NEI:ON, CraftGuide:OFF, Mekanism:OFF, ImmibisMicroblocks:OFF, BetterStorage:OFF
+	Launched Version: 1.7.10-Forge10.13.3.1370-1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 780M/PCIe/SSE2 GL version 4.5.0 NVIDIA 350.12, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
